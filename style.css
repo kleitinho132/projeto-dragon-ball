@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(#d1c81468, #122713 ),url('https://i.pinimg.com/736x/c7/03/af/c703af8de5f78d5bce41e0e7854f2c84.jpg') no-repeat ;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+
+header{
+    background-color: #00000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem
+}
+
+header img{
+    width: 4rem;
+    border-radius: 50%;
+}
+
+nav{
+    display: flex;
+    gap: 2rem;
+}
+
+nav a:hover{
+    color: #CDC6E5;
+    border-bottom: 1px solid;
+}
+
+header a{
+    width: 4em;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+main{
+        display: flex;
+    padding: 1rem;
+    gap: 1rem;
+    height: 80vh;
+
+}
+
+section{
+      display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   width: 60%;
+}
+
+section h1{
+    font-size: 3rem;
+    text-align: center;
+    font-family: impact;
+    color:#ebdf07 ;
+    text-shadow: 2rem;
+}
+
+section h2{
+    color: #fff;
+    text-shadow:2px 2px #000;
+    font-size: 2rem;
+
+}
+
+section p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-indent:5% ;
+    background-color: #00000000;
+    padding:  0.5rem 2rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+section a{
+    background:#ebdf07;
+    padding: 0.5rem 1rem;
+    width: 8rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 1rem auto;
+    max-width: bold;
+    margin: 1rem auto;
+    color: #fff;
+
+}
+main img{
+    width: 40%;
+    object-fit: contain;
+
+}
+
+footer{
+    background-color: #1D3013;
+    height: 10vh;display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+footer img{
+    width: 2rem;
+    border-radius: 50%;
+}
